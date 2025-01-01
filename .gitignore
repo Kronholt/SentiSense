@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.venv
+
+# FastAPI / Uvicorn logs
+*.log
+*.pid
+*.err
+*.out
+
+# Test results
+.coverage
+htmlcov/
+*.cover
+.cache
+pytest_cache/
+.tox/
+.jupyter_cache/
+
+# Database files
+*.sqlite3
+*.db
+
+# Static and media files
+/staticfiles/
+/mediafiles/
+/uploads/
+
+# VSCode and other IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables and configuration
+.env
+.env.*
+config.yaml
+config.json
+
+# Package management
+*.lock
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Wheel files
+*.whl
+
+# Node.js (if you’re using npm/yarn for frontend in the same repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Miscellaneous
+*.bak
+*.tmp
